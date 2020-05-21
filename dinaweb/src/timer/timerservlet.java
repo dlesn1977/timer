@@ -26,7 +26,7 @@ public class timerservlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Modified Served at: ").append(request.getContextPath());
+		response.getWriter().append("Modified Served at: changed for git ").append(request.getContextPath());
 	}
 
 	/**
